@@ -156,3 +156,7 @@ footer {
 a:hover {
     color: #828282;
 }
+
+h4 {
+    line-height: 1.7em;
+}
