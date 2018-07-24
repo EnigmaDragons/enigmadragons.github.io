@@ -1,0 +1,160 @@
+body {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    padding:0;
+    margin:0;
+    background-color: #333333;
+    color: #cecece;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    margin: 10px;
+}
+
+a img:hover {
+    filter: brightness(120%);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #cecece;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    position:fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    width: 100%;
+    height: 140px;
+    box-shadow: 0 6px 6px #151515;
+}
+
+.navbar {
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    margin-right: 20px;
+    max-width: 1500px;
+    height: 140px;
+    vertical-align: middle;
+}
+
+.navbar a {
+    margin-right: 3%;
+}
+
+.navbar img {
+    margin-right: 3%;
+    max-height: 110px;
+}
+
+.title img {
+    max-height: 18px;
+}
+
+.github {
+    width: 72px;
+    height: auto;
+}
+
+/* Body Content */
+
+.main {
+    margin-top: 150px;
+    padding: 0 10%;
+    z-index: 1;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main div {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.slider {
+    width: 80%;
+    max-width: 600px;
+    height: 40vh;
+    max-height: 40vh;
+    margin: auto;
+}
+
+/* Game Title */
+
+.game-title {
+    height: 14vh;
+}
+
+.game-title p {
+    margin-top: -18px;
+}
+
+/* Releases */
+
+.releases div {
+    height: 17vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.release-link {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    padding: 0 1em;
+    border-radius: 15px;
+    min-width: 8vw;
+}
+
+.release-link:hover {
+    background-color: #333333;
+    filter: brightness(120%);
+}
+
+.release-link i {
+    font-size: 2.1em;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 36px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    box-shadow: 0 -6px 6px #151515;
+}
+
+.spacer {
+    min-width: 22%;
+}
+
+.fa-copyright {
+    font-size: 18px;
+}
