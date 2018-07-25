@@ -39,78 +39,51 @@
 </head>
 
 <body>
-    <header>
-        <div class="col1 navbar">
-            <a href=""><img src="img/logo.png" alt="Enigma Dragons Logo"/></a>
-            <img src="img/title.png" class="title" alt="Enigma Dragons Title Image"/>
-            <a href="https://github.com/EnigmaDragons">
-                <img src="img/github.png" class="github" alt="Github Link"/>
+    <header class="site-header">
+        <div class="measure container space-between">
+            <a href="index.html"><img class="site-logo-img" src="img/logo.png" alt="Enigma Dragons Logo"/></a>
+            <a href="index.html"><img class="site-title-img" src="img/title.png" alt="Enigma Dragons Title Image"/></a>
+            <a class="mobile-hidden mobile-right" href="https://github.com/EnigmaDragons">
+                <img class="site-github-img" src="img/github.png" alt="Github Link"/>
             </a>
         </div>
     </header>
 
-    <div class="main">
-        <div class="game-title">
-            <a href="GnosisDisperitus.html"><h2>Gnosis Disperitus</h2></a>
-        </div>
+    <div class="main measure">
+        <h1>Our Games</h1>
+        <a class="game" href="GnosisDisperitus.html">
+            <div class="card">
+                <h2>Gnosis Disperitus</h2>
+                <img src="img/screenshot/GnosisDisperitus/RobotRepairRoom.jpg" />
+            </div>
+        </a>
 
-        <div class="slider">
-            <img src="img/screenshot/GnosisDisperitus/Title.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/WaterGuardian.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/RobotRepairRoom.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/IntroWoods.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/Skills.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/PowerRoomPuzzle.jpg" />
-            <img src="img/screenshot/GnosisDisperitus/RunForYourLife.jpg" />
-        </div>
-    </div>
+        <a class="game" href="ModeaJetGrandResort.html">
+            <div class="card">
+                <h2>ModeaJet Grand Resort</h2>
+                <img src="img/screenshot/ModeaJetGrandResort/MeleenaHanger.png" />
+            </div>
+        </a>
 
-    <div class="main">
-        <div class="game-title">
-            <a href="ModeaJetGrandResort.html"><h2>ModeaJet Grand Resort</h2></a>
-        </div>
+        <a class="game" href="TheShutdown.html">
+            <div class="card">
+                <h2>The Shutdown</h2>
+                <img src="img/screenshot/TheShutdown/DarkTownHall.jpg" />
+            </div>
+        </a>
 
-        <div class="slider">
-            <img src="img/screenshot/ModeaJetGrandResort/Title.png" />
-            <img src="img/screenshot/ModeaJetGrandResort/MeleenaHanger.png" />
-            <img src="img/screenshot/ModeaJetGrandResort/ScanningTravis.png" />
-            <img src="img/screenshot/ModeaJetGrandResort/Dilemmas.png" />
-            <img src="img/screenshot/ModeaJetGrandResort/HotelLobby.png" />
-        </div>
-    </div>
-
-    <div class="main">
-        <div class="game-title">
-            <a href="TheShutdown.html"><h2>The Shutdown</h2></a>
-        </div>
-
-        <div class="slider">
-            <img src="img/screenshot/TheShutdown/Title.jpg" />
-            <img src="img/screenshot/TheShutdown/DarkTownHall.jpg" />
-            <img src="img/screenshot/TheShutdown/MayorMistress.jpg" />
-            <img src="img/screenshot/TheShutdown/OutsideOfTown.jpg" />
-        </div>
-    </div>
-
-    <div class="main">
-        <div class="game-title" >
-            <a href="PlanetOrDie.html"><h2>Planet Or Die</h2></a>
-        </div>
-
-        <div class="slider">
-            <img src="img/screenshot/PlanetOrDie/Title.jpg" />
-            <img src="img/screenshot/PlanetOrDie/Intro.jpg" />
-            <img src="img/screenshot/PlanetOrDie/DefendExistence.jpg" />
-            <img src="img/screenshot/PlanetOrDie/GoodJoke.jpg" />
-            <img src="img/screenshot/PlanetOrDie/Burn.jpg" />
-            <img src="img/screenshot/PlanetOrDie/Tomas.jpg" />
-        </div>
+        <a class="game" href="PlanetOrDie.html">
+            <div class="card">
+                <h2>Planet Or Die</h2>
+                <img src="img/screenshot/PlanetOrDie/Burn.jpg" />
+            </div>
+        </a>
     </div>
 
     <footer>
         <div><i class="fa fa-copyright" aria-hidden="true"></i> 2018 Enigma Dragons</div>
-        <span class="spacer"></span>
-        <div>We make games!</div>
+        <span class="spacer mobile-hidden"></span>
+        <div class="mobile-hidden">We make games!</div>
     </footer>
 </body>
 </html>
