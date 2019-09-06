@@ -24,9 +24,14 @@ body {
     text-align: center;
 }
 
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .measure {
     margin: 0 auto;
-    max-width: 42rem;
+    max-width: 60rem;
 }
 
 
@@ -429,3 +434,33 @@ footer {
         font-size: 18px;
     }
 }
+
+ /* Document */
+
+ .document {
+    margin-top: 2em;
+    margin-bottom: 2em;
+ }
+
+ .document h1,
+ .document h2,
+ .document h3,
+ .document h4,
+ .document h5,
+ .document h6,
+ .document p,
+ .document li {
+    text-align: left;
+ }
+
+ .document h4,
+ .document h5,
+ .document h6,
+ .document p,
+ .document li {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .document ul li {
+    padding-left: 1em;
+ }

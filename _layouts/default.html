@@ -59,10 +59,12 @@
         </div>
     </header>
 
-    {{content}}
+    <section id="main" class="{{ page.style | default: '' }}">
+        {{content}}
+    </section>
 
     <footer>
-        <div><i class="fa fa-copyright" aria-hidden="true"></i> 2018 Enigma Dragons</div>
+        <div><i class="fa fa-copyright" aria-hidden="true"></i> {{ 'now' | date: "%Y" }} Enigma Dragons</div>
         <span class="spacer mobile-hidden"></span>
         <div class="mobile-hidden">We make games!</div>
     </footer>
