@@ -27,7 +27,7 @@ style: "measure document"
 - All active tickets must have a Role label.
 - To begin work on a ticket, ensure that the ticket is assigned to you and is moved to the "In Progress" column.
 - Only work on 1, or at most 2, ticket(s) at a time.
-- If you wish to work on a ticket outside your role consult the ARC or Design Lead first
+- If you wish to work on a ticket outside your role consult the Architect or Project Manager first
 - Every ticket that is finished must result in a Git commit with the new artifacts (code, document, art)
 
 ----
@@ -85,10 +85,28 @@ A ticket is done when all of the following are true:
 
 ## A. Paid Work Guidelines
 
-----
-
 - For paid work, you are owed payment for a ticket after it is done.
 - Payment schedules and rates are worked out prior to joining the project.
 - Upon request, any unpaid balance will be sent to you within 48hrs.
+
+----
+
+## B. Ticket Flow FAQs
+
+**Q: What should I do if I have a question about a particular ticket?**
+
+A: Post a comment on the ticket, addressing it to the Project Manager. `@GithubUsername`
+
+**Q: Should I keep close track of my time?**
+
+A: No. We care about results, not time. If there is new work that you think is needed, open a new ticket.
+
+**Q: What happens if I build a little more than the ticket asks for?**
+
+A: Just check it in with the Pull Request. Don't overthink things.
+
+**Q: If I finish two tickets at the same time, can I submit a PR for both of them?**
+
+A: As long as they are related features, go for it.
 
 ----
