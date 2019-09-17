@@ -88,6 +88,7 @@ A ticket is done when all of the following are true:
 - For paid work, you are owed payment for a ticket after it is done.
 - Payment schedules and rates are worked out prior to joining the project.
 - Upon request, any unpaid balance will be sent to you within 48hrs.
+- All tickets that have an unspecified size are worth 2 units.
 
 ----
 
@@ -96,6 +97,14 @@ A ticket is done when all of the following are true:
 **Q: What should I do if I have a question about a particular ticket?**
 
 A: Post a comment on the ticket, addressing it to the Project Manager. `@GithubUsername`
+
+**Q: This Ticket doesn't have a lot of requirements. How do I work on it?**
+
+A: This is your chance to design something that you think will make the game great. Give it your best shot. Build the feature the way YOU want it to look... the way YOU want it to feel. We trust you. Make it great!
+
+**Q: What should I name my branches?**
+
+A: Whatever you wish.
 
 **Q: Should I keep close track of my time?**
 
