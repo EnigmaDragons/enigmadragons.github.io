@@ -29,6 +29,7 @@ style: "measure document"
 - Only work on 1, or at most 2, ticket(s) at a time.
 - If you wish to work on a ticket outside your role consult the Architect or Project Manager first
 - Every ticket that is finished must result in a Git commit with the new artifacts (code, document, art)
+- A ticket is done when it has been merged to `master`
 
 ----
 
