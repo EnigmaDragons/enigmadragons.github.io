@@ -1,0 +1,151 @@
+:root {
+	--hack: #17d5f7;
+	--grey: #373737;
+	--light-grey: #494949;
+	--dark-grey: #252525;
+}
+
+.product {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.product h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	font-family: "Courier New", Courier, serif;
+}
+
+a:hover {
+	color: #00cefa;	
+	text-decoration: none;
+}
+
+.product hr {
+	border-top: 1px solid 
+}
+
+.product .img-thumbnail {
+	padding: 3px;
+	background-color: #252525;
+	border: 0px solid #17d5f7;
+}
+
+.product .img-thumbnail:hover {
+	background-color: #494949;
+}
+
+.container .site-header {
+	background-color: #151515;
+	width: 100%;
+	height: 5.8rem;
+	box-shadow: 0 6px 6px #151515;
+	overflow: hidden;
+	padding-top: 1.0rem;
+	padding-bottom: 1.0rem;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: none;
+	}
+}
+
+@media (min-width: 576px) {
+	 .container, .container-sm {
+		max-width: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.container, .container-sm, .container-md {
+		max-width: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.container, .container-sm, .container-md, .container-lg {
+		max-width: none;
+	}
+}
+
+.deets {
+	color: #ffffff;
+	text-align: left;
+}
+
+.req {
+	display: inline-block;
+	color: #bbbbbb;
+}
+
+.hero {
+	width: 100%;
+	height: auto;
+}
+
+.tag-container {
+	text-align: left !important;
+}
+
+.tag {
+	padding: 3px;
+	background-color: #494949;
+	border: 0px solid #17d5f7;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+
+.review {
+	background-color: #494949;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.review .col-2 {
+	padding-top: 30px;
+}
+
+.review .col-10 {
+	padding-top: 20px;
+}
+
+.border-left {
+	border-left: 1px solid #bbbbbb !important;
+}
+
+.row-thumbnail {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.col-thumbnail {
+	padding: 2px;
+	padding-bottom: 15px;
+}
+
+.mobile-column {
+	display: inline-block;
+}
+
+.hack {
+	color: #17d5f7;
+}
+
+.fa-thumbs-up {
+	color: #17d5f7;
+}
